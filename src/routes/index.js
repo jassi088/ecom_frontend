@@ -14,12 +14,14 @@ import WishListPage from "../pages/wishlist";
 import AdminProtectedRoute from "./AdminProtectedRoute";
 import CartProtectedRoute from "./CartProtectedRoute";
 import ProtectedRoute from "./ProtectedRoute";
+import ContactPage from "src/pages/contact";
 
 const Routers = () => {
     return (
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<HomePage />} />
+                <Route path="/contact" element={<ContactPage />} />
                 <Route path="/wish-list" element={<WishListPage />} />
 
                 <Route path="/checkout" element={

@@ -38,8 +38,7 @@ const NavbarComponent = () => {
                     <span
                         onClick={() => navigate('/')}
                         className='hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer'>Shop</span>
-                    <span className='hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer'>Blog</span>
-                    <span className='hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer'>Contact</span>
+                    <span onClick={() => navigate('/contact')} className='hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer'>Contact</span>
                 </div>
 
 
@@ -381,12 +380,7 @@ const NavbarComponent = () => {
                         Shop</span>
                     <span
                         onClick={() => {
-                            navbarToggleOpen();
-                        }}
-                        className="font-medium text-lg tracking-widest hover:text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer"
-                    >Blog</span>
-                    <span
-                        onClick={() => {
+                            navigate('/contact');
                             navbarToggleOpen();
                         }}
                         className="font-medium text-lg tracking-widest hover:text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer"
