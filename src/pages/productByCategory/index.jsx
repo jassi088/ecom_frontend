@@ -25,6 +25,7 @@ const ProductByCategoryPage = () => {
             fetchData();
         }
     }, [catId]);
+    
     return (
         <LayoutComponent>
             <AllProductComponent products={products} />
