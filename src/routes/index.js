@@ -11,10 +11,10 @@ import UserOrderPage from "../pages/user/order";
 import UserProfilePage from "../pages/user/profile";
 import UserSettingPage from "../pages/user/setting";
 import WishListPage from "../pages/wishlist";
+import ContactPage from "../pages/contact";
 import AdminProtectedRoute from "./AdminProtectedRoute";
 import CartProtectedRoute from "./CartProtectedRoute";
 import ProtectedRoute from "./ProtectedRoute";
-import ContactPage from "src/pages/contact";
 
 const Routers = () => {
     return (
