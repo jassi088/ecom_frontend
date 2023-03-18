@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { authUserAction } from "./redux/slices/AuthSlice";
+import { cartProductAction } from "./redux/slices/HomeSlice";
+import Routers from "./routes";
+import { cartListProduct } from "./shared/apiCall/cart";
 
-function App() {
+const App = () => {
+  const dispatch = useDispatch();
+  const fetchCartProduct = async () => {
+    try {
+      let { data: responseData } = await cartListProduct();
+      if (responseData.Products) {
+        dispatch(cartProductAction(responseData.Products));
+      }
+    } catch (error) {
+
+    }
+  }
+  useEffect(() => {
+    if (localStorage.getItem('jwt')) {
+      dispatch(authUserAction(JSON.parse(localStorage.getItem('jwt'))));
+    }
+  }, []);
+
+  useEffect(() => {
+    fetchCartProduct();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routers />
   );
 }
 
