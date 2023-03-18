@@ -2,7 +2,7 @@ import axios from "axios";
 const apiURL = process.env.REACT_APP_API_URL;
 
 
-export const cartListProduct = async (data) => {
+export const cartListProduct = async () => {
     let cart = JSON.parse(localStorage.getItem('cart'));
 
     let productArray = [];

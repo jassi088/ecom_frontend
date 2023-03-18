@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { cartProductAction, inCartAction, loadingAction, singleProductDetailAction } from '../../../redux/slices/HomeSlice';
 import { cartListProduct } from '../../../shared/apiCall/cart';
 import { getSingleProduct } from '../../../shared/apiCall/product';
-import { addToCart, cartListId, updateQuantity } from '../../../shared/apiCall/cart';
+import { addToCart, cartListId, updateQuantity } from '../../../shared/helpers/cart';
 import totalCost from '../../../shared/helpers/totalCost';
 import { isWishReq, isWish, unWishReq } from '../../../shared/utils/wishList';
 import { slideImage } from '../helpers/slideImage';
