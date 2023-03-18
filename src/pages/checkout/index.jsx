@@ -1,5 +1,4 @@
-import React from 'react'
-import LayoutComponent from 'src/shared/components/LayoutComponent';
+import LayoutComponent from '../../shared/components/LayoutComponent';
 import CheckoutComponent from './components/CheckoutComponent';
 
 const CheckoutPage = () => {

@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchProductsAction } from 'src/redux/slices/ProductSlice';
-import { deleteProduct, getAllProducts } from 'src/shared/apiCall/product';
+import { fetchProductsAction } from '../../../../redux/slices/ProductSlice';
+import { deleteProduct, getAllProducts } from '../../../../shared/apiCall/product';
 import EditProductModal from '../modals/EditProductModal';
 import ProductTableComponent from './ProductTableComponent';
 

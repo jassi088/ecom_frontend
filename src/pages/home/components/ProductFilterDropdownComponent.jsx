@@ -1,4 +1,3 @@
-import React from 'react'
 import CategoryListComponent from './CategoryListComponent';
 import FilterListCompoenent from './FilterListCompoenent';
 import SearchComponent from './SearchComponent';

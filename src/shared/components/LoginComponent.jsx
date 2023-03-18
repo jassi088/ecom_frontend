@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { authUserAction } from 'src/redux/slices/AuthSlice';
-import { loginSignUpModalToggle } from 'src/redux/slices/LayoutSlice';
+import { authUserAction } from '../../redux/slices/AuthSlice';
+import { loginSignUpModalToggle } from '../../redux/slices/LayoutSlice';
 import { loginReq } from '../apiCall/authRequest';
 
 

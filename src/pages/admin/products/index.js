@@ -1,4 +1,4 @@
-import AdminLayoutComponent from "src/shared/components/AdminLayoutComponent";
+import AdminLayoutComponent from '../../../shared/components/AdminLayoutComponent';
 import AllProductComponent from "./components/AllProductComponent";
 import ProductMenuComponent from "./components/ProductMenuComponent";
 

@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import { useEffect, useState } from 'react';
-import { editOrder } from 'src/shared/apiCall/order';
+import { editOrder } from '../../../../shared/apiCall/order';
 
 const UpdateOrderModal = ({ isEditOrder, setIsEditOrder, editOrderData, fetchAllOrders }) => {
 

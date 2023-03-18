@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { loadingAction, setProductsAction } from 'src/redux/slices/HomeSlice';
-import { getAllProducts } from 'src/shared/apiCall/product';
-import { isWishReq, isWish, unWishReq } from 'src/shared/utils/wishList';
+import { loadingAction, setProductsAction } from '../../../redux/slices/HomeSlice';
+import { getAllProducts } from '../../../shared/apiCall/product';
+import { isWishReq, isWish, unWishReq } from '../../../shared/utils/wishList';
 
 
 const ProductComponent = () => {

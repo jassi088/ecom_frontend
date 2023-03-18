@@ -1,14 +1,14 @@
 import { useState } from "react";
 import ReactDOM from "react-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { getCategories } from "src/redux/slices/CategorySlice";
-import { createCategory, getAllCategory } from "src/shared/apiCall/category";
+import { getCategories } from "../../../../redux/slices/CategorySlice";
+import { createCategory, getAllCategory } from '../../../../shared/apiCall/category';
 
 
 const AddCategoryModal = ({ isAddCategoryModal, setIsAddCategoryModal }) => {
 
     const dispatch = useDispatch();
-    const allCategories = useSelector(state => state.category.allCategories)
+    // const allCategories = useSelector(state => state.category.allCategories)
     const [isLoading, setIsLoading] = useState(false);
 
     const [fData, setFData] = useState({

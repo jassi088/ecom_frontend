@@ -1,4 +1,4 @@
-import AdminLayoutComponent from "src/shared/components/AdminLayoutComponent";
+import AdminLayoutComponent from '../../../shared/components/AdminLayoutComponent';
 import CustomizedComponent from "./components/CustomizedComponent";
 import DashboardCardComponent from "./components/DashboardCardComponent";
 import SaleTableComponent from "./components/SaleTableComponent";

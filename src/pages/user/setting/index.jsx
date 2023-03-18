@@ -1,5 +1,5 @@
 import { useState } from "react";
-import UserLayoutComponent from "src/shared/components/UserLayoutComponent";
+import UserLayoutComponent from '../../../shared/components/UserLayoutComponent';
 import { updatePassword } from "./apiCall/setting";
 
 const UserSettingPage = () => {

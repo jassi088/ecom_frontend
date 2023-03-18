@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { logoutAction } from "src/redux/slices/AuthSlice";
-import { resetCartAction } from "src/redux/slices/HomeSlice";
+import { logoutAction } from "../../redux/slices/AuthSlice";
+import { resetCartAction } from "../../redux/slices/HomeSlice";
 
 const AdminNavbarComponent = () => {
   const navigate = useNavigate();

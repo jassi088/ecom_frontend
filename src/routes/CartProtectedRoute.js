@@ -1,5 +1,5 @@
 import { Navigate } from "react-router-dom";
-const { isAuthenticate } = require("src/shared/helpers/isAuthenticate");
+const { isAuthenticate } = require("../shared/helpers/isAuthenticate");
 
 
 const CartProtectedRoute = ({ children }) => {

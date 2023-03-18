@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { dashboardData } from '../apiCall/dashboardData'
+import React, { useEffect, useState } from 'react';
+import { dashboardData } from '../apiCall/dashboardData';
 
 const DashboardCardComponent = () => {
 

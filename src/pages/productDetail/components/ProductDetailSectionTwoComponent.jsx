@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { menuAction } from 'src/redux/slices/HomeSlice';
+import { menuAction } from '../../../redux/slices/HomeSlice';
 import AllReviewsComponent from './AllReviewsComponent';
 import ReviewFormComponent from './ReviewFormComponent';
 

@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { categoryListDropdownAction, filterDropdownAction, searchBarAction } from 'src/redux/slices/HomeSlice';
+import { categoryListDropdownAction, filterDropdownAction, searchBarAction } from '../../../redux/slices/HomeSlice';
 import ProductFilterDropdownComponent from './ProductFilterDropdownComponent';
 
 

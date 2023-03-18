@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { searchBarAction, loadingAction, searchProductAction, setProductsAction } from 'src/redux/slices/HomeSlice';
-import { getAllProducts } from 'src/shared/apiCall/product';
+import { searchBarAction, loadingAction, searchProductAction, setProductsAction } from '../../../redux/slices/HomeSlice';
+import { getAllProducts } from '../../../shared/apiCall/product';
 
 const SearchComponent = () => {
   const dispatch = useDispatch();

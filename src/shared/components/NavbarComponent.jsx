@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useNavigate } from "react-router-dom";
-import { logoutAction } from "src/redux/slices/AuthSlice";
-import { cartModalToggleAction, resetCartAction } from "src/redux/slices/HomeSlice";
-import { hamburgerToggle, loginSignUpModalToggle } from "src/redux/slices/LayoutSlice";
+import { logoutAction } from "../../redux/slices/AuthSlice";
+import { cartModalToggleAction, resetCartAction } from "../../redux/slices/HomeSlice";
+import { hamburgerToggle, loginSignUpModalToggle } from "../../redux/slices/LayoutSlice";
 import { isAdmin } from "../helpers/isAdmin";
 
 

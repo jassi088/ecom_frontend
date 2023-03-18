@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { getUserDetails } from 'src/pages/user/profile/apiCall/profile';
-import { logoutAction } from 'src/redux/slices/AuthSlice';
-import { resetCartAction } from 'src/redux/slices/HomeSlice';
+import { getUserDetails } from '../../pages/user/profile/apiCall/profile';
+import { logoutAction } from '../../redux/slices/AuthSlice';
+import { resetCartAction } from '../../redux/slices/HomeSlice';
 
 const UserSidebarComponent = () => {
 

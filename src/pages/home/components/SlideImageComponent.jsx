@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { getAllImages } from '../apiCall/slide'
+import React, { useEffect, useState } from 'react';
+import { getAllImages } from '../apiCall/slide';
 import { nextSlide } from '../helpers/nextSlide';
 import { prevSlide } from '../helpers/prevSlide';
 

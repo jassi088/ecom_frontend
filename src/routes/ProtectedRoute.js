@@ -1,6 +1,6 @@
 import { Navigate } from "react-router-dom";
-import { isAdmin } from "src/shared/helpers/isAdmin";
-import { isAuthenticate } from "src/shared/helpers/isAuthenticate";
+import { isAdmin } from "../shared/helpers/isAdmin";
+import { isAuthenticate } from "../shared/helpers/isAuthenticate";
 
 const ProtectedRoute = ({ children }) => {
     const isLoginUser = isAuthenticate() && !isAdmin();

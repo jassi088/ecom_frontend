@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import UserLayoutComponent from "src/shared/components/UserLayoutComponent";
+import UserLayoutComponent from "../../../shared/components/UserLayoutComponent";
 import { getOrderByUser } from "./apiCall/order";
 import TableBodyComponent from "./components/TableBodyComponent";
 

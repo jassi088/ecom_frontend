@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { unWishReq } from 'src/shared/utils/wishList';
+import { unWishReq } from '../../../shared/utils/wishList';
 import { wishListProducts } from '../apiCall/wishList';
 
 const ProductComponent = () => {

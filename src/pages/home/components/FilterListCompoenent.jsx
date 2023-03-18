@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { filterDropdownAction, loadingAction, setProductsAction } from 'src/redux/slices/HomeSlice';
-import { getAllProducts, productByPrice } from 'src/shared/apiCall/product';
+import { filterDropdownAction, loadingAction, setProductsAction } from '../../../redux/slices/HomeSlice';
+import { getAllProducts, productByPrice } from '../../../shared/apiCall/product';
 
 
 const FilterListCompoenent = () => {

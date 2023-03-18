@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { cartModalToggleAction, cartProductAction, cartTotalCostAction, inCartAction } from 'src/redux/slices/HomeSlice';
+import { cartModalToggleAction, cartProductAction, cartTotalCostAction, inCartAction } from '../../redux/slices/HomeSlice';
 import { cartListProduct } from '../apiCall/cart';
 import { cartListId } from '../helpers/cart';
 import { qunatityFinder } from '../helpers/quantityFinder';

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
-import { editCategoryCall } from "src/shared/apiCall/category";
+import { editCategoryCall } from '../../../../shared/apiCall/category';
 
 const EditCategoryModal = ({ isEditCategory, setIsEditCategory, editCategory, fetchCategories }) => {
 

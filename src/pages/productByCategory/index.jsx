@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import LayoutComponent from "src/shared/components/LayoutComponent";
+import LayoutComponent from "../../shared/components/LayoutComponent";
 import { productByCategory } from "./apiCall/productByCategory";
 import AllProductComponent from "./components/AllProductComponent";
 

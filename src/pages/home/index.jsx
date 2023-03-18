@@ -1,5 +1,4 @@
-import React from 'react'
-import LayoutComponent from 'src/shared/components/LayoutComponent';
+import LayoutComponent from '../../shared/components/LayoutComponent';
 import ProductCategoryComponent from './components/ProductCategoryComponent';
 import ProductComponent from './components/ProductComponent';
 import SlideImageComponent from './components/SlideImageComponent';

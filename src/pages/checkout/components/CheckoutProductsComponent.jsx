@@ -1,7 +1,6 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import { qunatityFinder } from 'src/shared/helpers/quantityFinder'
-import { subTotal } from 'src/shared/helpers/subTotal'
+import { useNavigate } from 'react-router-dom';
+import { qunatityFinder } from '../../../shared/helpers/quantityFinder';
+import { subTotal } from '../../../shared/helpers/subTotal';
 
 const CheckoutProductsComponent = ({ products }) => {
     const navigate = useNavigate();

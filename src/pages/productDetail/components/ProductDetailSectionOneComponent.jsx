@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { cartProductAction, inCartAction, loadingAction, singleProductDetailAction } from 'src/redux/slices/HomeSlice';
-import { cartListProduct } from 'src/shared/apiCall/cart';
-import { getSingleProduct } from 'src/shared/apiCall/product';
-import { addToCart, cartListId, updateQuantity } from 'src/shared/helpers/cart';
-import totalCost from 'src/shared/helpers/totalCost';
-import { isWishReq, isWish, unWishReq } from 'src/shared/utils/wishList';
+import { cartProductAction, inCartAction, loadingAction, singleProductDetailAction } from '../../../redux/slices/HomeSlice';
+import { cartListProduct } from '../../../shared/apiCall/cart';
+import { getSingleProduct } from '../../../shared/apiCall/product';
+import { addToCart, cartListId, updateQuantity } from '../../../shared/apiCall/cart';
+import totalCost from '../../../shared/helpers/totalCost';
+import { isWishReq, isWish, unWishReq } from '../../../shared/utils/wishList';
 import { slideImage } from '../helpers/slideImage';
 import ProductDetailSectionTwoComponent from './ProductDetailSectionTwoComponent';
 import SubmenuComponent from './SubmenuComponent';

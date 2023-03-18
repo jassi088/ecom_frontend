@@ -1,4 +1,4 @@
-import { cartTotalCostAction, inCartAction } from "src/redux/slices/HomeSlice";
+import { cartTotalCostAction, inCartAction } from "../../redux/slices/HomeSlice";
 
 export const updateQuantity = (type, totalQuantity, quantity, setQuantity, setAlertq) => {
     if (type === 'increase') {

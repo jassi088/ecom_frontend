@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { useDispatch } from 'react-redux';
-import { fetchProductsAction } from 'src/redux/slices/ProductSlice';
-import { getAllCategory } from 'src/shared/apiCall/category';
-import { createProduct, getAllProducts } from 'src/shared/apiCall/product';
+import { fetchProductsAction } from '../../../../redux/slices/ProductSlice';
+import { getAllCategory } from '../../../../shared/apiCall/category';
+import { createProduct, getAllProducts } from '../../../../shared/apiCall/product';
 
 
 

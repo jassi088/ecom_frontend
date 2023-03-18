@@ -1,7 +1,7 @@
 import moment from 'moment';
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-import { getAllOrders } from 'src/shared/apiCall/order';
+import { getAllOrders } from '../../../../shared/apiCall/order';
 import TodayOrderTableComponent from './TodayOrderTableComponent';
 
 const SaleTableComponent = () => {

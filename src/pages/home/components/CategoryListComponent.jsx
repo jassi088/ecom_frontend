@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { getAllCategory } from "src/shared/apiCall/category";
+import { getAllCategory } from "../../../shared/apiCall/category";
 
 
 

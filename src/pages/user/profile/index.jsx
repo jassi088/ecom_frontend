@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import UserLayoutComponent from "src/shared/components/UserLayoutComponent";
+import UserLayoutComponent from "../../../shared/components/UserLayoutComponent";
 import { getUserDetails, updateInformation } from "./apiCall/profile";
 
 

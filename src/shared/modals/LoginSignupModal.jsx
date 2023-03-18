@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { loginSignUpModalToggle } from 'src/redux/slices/LayoutSlice';
+import { loginSignUpModalToggle } from '../../redux/slices/LayoutSlice';
 import LoginComponent from '../components/LoginComponent';
 import SignupComponent from '../components/SignupComponent';
 

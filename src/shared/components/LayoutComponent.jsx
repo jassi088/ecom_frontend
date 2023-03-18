@@ -1,4 +1,4 @@
-import OrderSuccessMessageComponent from "src/pages/home/components/OrderSuccessMessageComponent";
+import OrderSuccessMessageComponent from "../../pages/home/components/OrderSuccessMessageComponent";
 import CartModal from "../modals/CartModal";
 import LoginSignupModal from "../modals/LoginSignupModal";
 import FooterComponent from "./FooterComponent";

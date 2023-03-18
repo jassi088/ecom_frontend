@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux";
-import { fetchOrdersAction } from "src/redux/slices/OrderSlice";
-import { deleteOrder, getAllOrders } from "src/shared/apiCall/order";
+import { fetchOrdersAction } from '../../../../redux/slices/OrderSlice';
+import { deleteOrder, getAllOrders } from '../../../../shared/apiCall/order';
 import UpdateOrderModal from "../modals/UpdateOrderModal";
 import OrderTableComponent from "./OrderTableComponent";
 

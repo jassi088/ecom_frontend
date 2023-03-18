@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import AddProductModal from '../modals/AddProductModal'
+import React, { useState } from 'react';
+import AddProductModal from '../modals/AddProductModal';
 
 const ProductMenuComponent = () => {
   const [isAddProductModal, setIsAddProductModal] = useState(false);

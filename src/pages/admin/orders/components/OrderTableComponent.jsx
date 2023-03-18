@@ -1,5 +1,4 @@
 import moment from 'moment';
-import React from 'react'
 
 const OrderTableComponent = ({ order, deleteOrderReq, editOrderReq }) => {
     return (

@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { orderSuccessAction } from "src/redux/slices/HomeSlice";
+import { orderSuccessAction } from '../../../redux/slices/HomeSlice';
 
 const OrderSuccessMessageComponent = () => {
     const data = useSelector(state => state.home);

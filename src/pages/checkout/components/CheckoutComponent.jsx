@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import DropIn from 'braintree-web-drop-in-react';
-import { cartProductAction, cartTotalCostAction, loadingAction, orderSuccessAction } from 'src/redux/slices/HomeSlice';
-import { cartListProduct } from 'src/shared/apiCall/cart';
+import { cartProductAction, cartTotalCostAction, loadingAction, orderSuccessAction } from '../../../redux/slices/HomeSlice';
+import { cartListProduct } from '../../../shared/apiCall/cart';
 import { createOrder, getBrainTreeToken, getPaymentProcess } from '../apiCall/payment';
 import CheckoutProductsComponent from './CheckoutProductsComponent';
-import totalCost from 'src/shared/helpers/totalCost';
+import totalCost from '../../../shared/helpers/totalCost';
 
 const CheckoutComponent = () => {
     const navigate = useNavigate();

@@ -1,4 +1,4 @@
-import LayoutComponent from "src/shared/components/LayoutComponent";
+import LayoutComponent from '../../shared/components/LayoutComponent';
 import ProductComponent from "./components/ProductComponent";
 
 

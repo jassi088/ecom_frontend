@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
-import { getAllCategory } from 'src/shared/apiCall/category';
-import { editProduct } from 'src/shared/apiCall/product';
+import { getAllCategory } from '../../../../shared/apiCall/category';
+import { editProduct } from '../../../../shared/apiCall/product';
 
 const EditProductModal = ({ isEditProduct, setIsEditProduct, editProductData, fetchProducts }) => {
 

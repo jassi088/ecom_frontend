@@ -2,8 +2,8 @@ import { useState } from 'react';
 import moment from 'moment';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { singleProductDetailAction } from 'src/redux/slices/HomeSlice';
-import { getSingleProduct } from 'src/shared/apiCall/product';
+import { singleProductDetailAction } from '../../../redux/slices/HomeSlice';
+import { getSingleProduct } from '../../../shared/apiCall/product';
 import { postDeleteReview } from '../apiCall/Review';
 
 

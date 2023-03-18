@@ -1,5 +1,5 @@
-import { fetchOrdersAction } from "src/redux/slices/OrderSlice";
-import { getAllOrders } from "../apiCall/order"
+import { fetchOrdersAction } from "../../redux/slices/OrderSlice";
+import { getAllOrders } from "../apiCall/order";
 
 
 export const filterOrder = async (type, dispatch, dropdown, setDropdown) => {

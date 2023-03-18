@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { getCategories } from 'src/redux/slices/CategorySlice';
-import { deleteCategory, getAllCategory } from 'src/shared/apiCall/category';
+import { getCategories } from '../../../../redux/slices/CategorySlice';
+import { deleteCategory, getAllCategory } from '../../../../shared/apiCall/category';
 import EditCategoryModal from '../modals/EditCategoryModal';
 import CategoryTableComponent from './CategoryTableComponent';
 
