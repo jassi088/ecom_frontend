@@ -3,7 +3,7 @@ import CategoriesPage from "src/pages/admin/categories";
 import AdminDashboardPage from "src/pages/admin/dashboard";
 import OrdersPage from "src/pages/admin/orders";
 import ProductPage from "src/pages/admin/products";
-import CheckoutPage from "src/pages/checkout";
+import CheckoutPage from "../pages/checkout";
 import HomePage from "src/pages/home";
 import ProductByCategoryPage from "src/pages/productByCategory";
 import ProductDetailPage from "src/pages/productDetail";
