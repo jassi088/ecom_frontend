@@ -19,6 +19,10 @@ import ProtectedRoute from "./ProtectedRoute";
 const Routers = () => {
     return (
         <BrowserRouter>
+            {/* Till Testing */}
+            {/* <div className="w-100 px-2 bg-gray-200 py-2 text-center text-xs md:text-sm">
+                <p className="font-medium font-serif">The Payment is yet in testing, so please use card number - <span className="font-semibold">4111 1111 1111 1111</span> .For testing purposes only</p>
+            </div> */}
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/contact" element={<ContactPage />} />
